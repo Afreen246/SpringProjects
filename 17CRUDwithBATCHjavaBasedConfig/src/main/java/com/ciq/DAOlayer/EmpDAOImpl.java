@@ -119,7 +119,6 @@ public class EmpDAOImpl implements EmpDaoLayer{
 	int count = 0;
 	for (i = 0; i < rs.length; i++) {
 		if (rs[i] == 1) {
-		//if(rs[i])
 			count++;
 		}
 		System.out.println("no.of queries:"+count);
@@ -128,8 +127,5 @@ public class EmpDAOImpl implements EmpDaoLayer{
 	
 		return count;
 	}
-
-	
-	
 
 }
